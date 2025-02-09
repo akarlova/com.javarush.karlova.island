@@ -1,0 +1,170 @@
+  Wolf:
+    class: com.island.simulation.entity.creatures.animals.predators.Wolf
+    weight: 50.0
+    maxSpeed: 3
+    maxOnCell: 30
+    foodNeeded: 8.0
+    icon: 🐺
+    reproductionProbability: 70.0
+    offspringCount: 3
+    selfReproducing: false
+  Rabbit:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Rabbit
+    weight: 2.5
+    maxSpeed: 2
+    maxOnCell: 150
+    foodNeeded: 0.45
+    icon: 🐇
+    reproductionProbability: 100.0
+    offspringCount: 5
+    selfReproducing: false
+  Boa:
+    class: com.island.simulation.entity.creatures.animals.predators.Boa
+    weight: 15.0
+    maxSpeed: 1
+    maxOnCell: 30
+    foodNeeded: 3.0
+    icon: 🐍
+    reproductionProbability: 40.0
+    offspringCount: 6
+    selfReproducing: false
+  Fox:
+    class: com.island.simulation.entity.creatures.animals.predators.Fox
+    weight: 8.0
+    maxSpeed: 4
+    maxOnCell: 50
+    foodNeeded: 2.0
+    icon: 🦊
+    reproductionProbability: 70.0
+    offspringCount: 3
+    selfReproducing: false
+  Bear:
+    class: com.island.simulation.entity.creatures.animals.predators.Bear
+    weight: 500.0
+    maxSpeed: 2
+    maxOnCell: 5
+    foodNeeded: 80.0
+    icon: 🐻
+    reproductionProbability: 60.0
+    offspringCount: 2
+    selfReproducing: false
+  Eagle:
+    class: com.island.simulation.entity.creatures.animals.predators.Eagle
+    weight: 6.0
+    maxSpeed: 3
+    maxOnCell: 20
+    foodNeeded: 1.0
+    icon: 🦅
+    reproductionProbability: 50.0
+    offspringCount: 3
+    selfReproducing: false
+  Duck:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Duck
+    weight: 1.0
+    maxSpeed: 4
+    maxOnCell: 200
+    foodNeeded: 0.15
+    icon: 🦆
+    reproductionProbability: 70.0
+    offspringCount: 10
+    selfReproducing: false
+  Caterpillar:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Caterpillar
+    weight: 0.01
+    maxSpeed: 0
+    maxOnCell: 1000
+    foodNeeded: 0.01
+    icon: 🐛
+    reproductionProbability: 100.0
+    offspringCount: 1
+    selfReproducing: true
+  Deer:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Deer
+    weight: 300.0
+    maxSpeed: 4
+    maxOnCell: 20
+    foodNeeded: 50.0
+    icon: 🦌
+    reproductionProbability: 50.0
+    offspringCount: 1
+    selfReproducing: false
+  Horse:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Horse
+    weight: 400.0
+    maxSpeed: 4
+    maxOnCell: 20
+    foodNeeded: 60.0
+    icon: 🐎
+    reproductionProbability: 60.0
+    offspringCount: 1
+    selfReproducing: false
+  Goat:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Goat
+    weight: 60.0
+    maxSpeed: 3
+    maxOnCell: 140
+    foodNeeded: 10.0
+    icon: 🐐
+    reproductionProbability: 80.0
+    offspringCount: 1
+    selfReproducing: false
+  Sheep:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Sheep
+    weight: 70.0
+    maxSpeed: 3
+    maxOnCell: 140
+    foodNeeded: 15.0
+    icon: 🐑
+    reproductionProbability: 60.0
+    offspringCount: 1
+    selfReproducing: false
+  Buffalo:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Buffalo
+    weight: 700.0
+    maxSpeed: 3
+    maxOnCell: 10
+    foodNeeded: 100.0
+    icon: 🐃
+    reproductionProbability: 30.0
+    offspringCount: 1
+    selfReproducing: false
+  Boar:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Boar
+    weight: 400.0
+    maxSpeed: 2
+    maxOnCell: 50
+    foodNeeded: 50.0
+    icon: 🐗
+    reproductionProbability: 40.0
+    offspringCount: 3
+    selfReproducing: false
+  Mouse:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Mouse
+    weight: 0.05
+    maxSpeed: 1
+    maxOnCell: 500
+    foodNeeded: 0.1
+    icon: 🐁
+    reproductionProbability: 90.0
+    offspringCount: 6
+    selfReproducing: false
+  Butterfly:
+    class: com.island.simulation.entity.creatures.animals.herbivores.Butterfly
+    weight: 0.02
+    maxSpeed: 1
+    maxOnCell: 500
+    foodNeeded: 0.01
+    icon: 🦋
+    reproductionProbability: 0.0
+    offspringCount: 0
+    selfReproducing: false
+  Tyrannosaurus:
+    class: com.island.simulation.entity.creatures.animals.predators.Tyrannosaurus
+    weight: 80000.0
+    maxSpeed: 5
+    maxOnCell: 2
+    foodNeeded: 8000.0
+    icon: 🦖
+    reproductionProbability: 0.1
+    offspringCount: 1
+    selfReproducing: true
