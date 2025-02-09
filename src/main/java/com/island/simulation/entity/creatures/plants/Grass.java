@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Grass extends Plant implements Reproducible {
 
-    private final static int MAX_GRASS_PER_CELL = 100;
+    private final static int MAX_GRASS_PER_CELL = 200;
     private static final int MIN_LAND_GROWTH = 50;
     private static final int MAX_LAND_GROWTH = 100;
     private static final int MIN_WATER_GROWTH = 80;
