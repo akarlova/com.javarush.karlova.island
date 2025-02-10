@@ -29,23 +29,23 @@ public class Cell {
         this.structure = structure;
     }
 
-    public void addCreatureForBirth(Class<? extends Creature> creatureType, int quantity) {
+    public synchronized void addCreatureForBirth(Class<? extends Creature> creatureType, int quantity) {
         creaturePopulation.merge(creatureType, quantity, Integer::sum);
         births.merge(creatureType, quantity, Integer::sum);
     }
 
-    public void addCreatureForMove(Class<? extends Creature> creatureType, int quantity) {
+    public synchronized void addCreatureForMove(Class<? extends Creature> creatureType, int quantity) {
         creaturePopulation.merge(creatureType, quantity, Integer::sum);
     }
 
-    public void removeCreatureForMove(Class<? extends Creature> creatureType, int quantity) {
+    public synchronized void removeCreatureForMove(Class<? extends Creature> creatureType, int quantity) {
         creaturePopulation.merge(creatureType, -quantity, Integer::sum);
         int newCount = creaturePopulation.getOrDefault(creatureType, 0);
         if (newCount < 0) {
             creaturePopulation.put(creatureType, 0);
         }
     }
-    public void removeCreatureForDeath(Class<? extends Creature> creatureType, int quantity) {
+    public synchronized void removeCreatureForDeath(Class<? extends Creature> creatureType, int quantity) {
         creaturePopulation.merge(creatureType, -quantity, Integer::sum);
         int newCount = creaturePopulation.getOrDefault(creatureType, 0);
         if (newCount < 0) {
